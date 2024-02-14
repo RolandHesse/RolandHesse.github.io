@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=display-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans&family=Roboto+Mono&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="intro">
+				<img class="profile-picture" src="images/IMG_0233.jpg" />
+				<h1>Dr Wolf</h1>
+				<h3>Professional Former Philosopher</h3>
+				<p>{{ Cada día cantaremos mejor lo que quantamos cada día }}</p>
+			</div>
+
+			<hr/>
+
+			<div class="about-grid">
+				<div class="i-am">
+					<h2>I am</h2>
+					<ul class="about-list">	
+						<li class="about-list-item">a former philosopher</li>
+						<li class="about-list-item">a father (part-time & full-heart)</li>
+						<li class="about-list-item">joyful climber/boulder aficionado</li>
+					</ul>
+				</div>
+
+				<div class="i-like">
+					<h3>I like to</h3>
+					<ul class="about-list">
+						<li class="about-list-item">wander in my thoughts and in the world</li>
+						<li class="about-list-item">meet good people</li>
+						<li class="about-list-item">spend time with my son</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr/>
+
+			<div>
+				<h3 class="projects-heading">My projects</h3>
+				<div class="projects-grid">
+					<div class="project-image-wrapper">				
+						<img class="project-image" src="images/project-1.jpg">
+						<h4>Project 1</h4>
+					</div>
+					<div class="project-image-wrapper">				
+						<img class="project-image" src="images/project-2.jpg">
+						<h4>Project 2</h4>
+					</div>
+					<div class="project-image-wrapper">				
+						<img class="project-image" src="images/project-3.jpg">
+						<h4>Project 3</h4>
+					</div>
+					<div class="project-image-wrapper">				
+						<img class="project-image" src="images/project-4.jpg">
+						<h4>Project 4</h4>
+					</div>	
+				</div>					
+			</div>
+
+			<hr/>
+
+			<div class="links-and-contacts">
+				<div class="links">
+					<h3>Links</h3>
+					<ul class="links-list">
+						<li>
+							<a href="https://github.com/<user>">Github</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/<user>">Twitter</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/dr-roland-hesse-95a89787/">Linkedin</a>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<form action="#">
+						<label for="email">
+							<h4>Email:</h4>
+							<input id="email" placeholder="Enter your email" />
+						</label>
+
+						<label for="message">
+							<h4>Message: </h4>
+							<textarea id=message>Your Message</textarea>
+						</label>
+
+						<div class="submit-button-wrapper">
+							<input id="submit-button" type="submit" value="Send Message">
+						</div>
+
+					</form>
+				</div>
+			</div>
+
+		</div>
+		<script src="script.js"></script>
+
+
+	</body>
+</html>
